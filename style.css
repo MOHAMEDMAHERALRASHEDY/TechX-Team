@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{ 
-    background :linear-gradient(#44ecff,#999999);
+    background :linear-gradient(#cab586,#ffffff);
     color: #333;
 }
 
@@ -18,7 +18,7 @@ header{
     left: 0;
     width: 100%;
     padding: 25px 2%;
-    background: #058cd5;
+    background: #cab586;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -243,3 +243,33 @@ cursor: pointer;
   .cart {
     width: 100%;
   }
+
+  .pagination {
+    padding: 4%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+  }
+  
+  .page-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .page-link {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .page-link:hover {
+    background-color: #f1f
+  }  
+  
+  

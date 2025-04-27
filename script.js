@@ -123,3 +123,4 @@ buyNowButton.addEventListener("click", () => {
 
     alert("Thank you for your purchase!");
 });
+
